@@ -5,6 +5,8 @@ import java.awt.Container;
 import java.awt.Dimension;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.WindowAdapter;
+import java.awt.event.WindowEvent;
 
 import javax.swing.Box;
 import javax.swing.BoxLayout;
@@ -14,14 +16,28 @@ import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 import javax.swing.JTextField;
 
-public class calculator extends JFrame implements ActionListener {
+/**
+ * calculatorSingle -> calculator_2_frame / agent 2개의 파일로 분기.
+ * 왜 쪼개느냐? 프레임 역할 / 계산역할을 분기하기 위해서
+ * 어떤 걸 학습할 수 있느냐? 서버와 클라이언트의 역할로 나눌 수 있다.
+ * 이 화면에서는 calculatorSingle에서 계산하는 로직을 덜어내는 대신, agent 호출소스를 추가했다.
+ * */
 
+public class Calculator_2_frame extends JFrame implements ActionListener {
+
+	Caculator_2_agent calcAgent;
 	//텍스트필드 (에디트박스 같은거). JTextArea는 TextArea란다.
 	JTextField operand1 = new JTextField(4);
-	JTextField operand2 = new JTextField(5);	
-	//딱봐도 콤보박스 ㅇㅈ? operatorData는 여기 안에 무슨 값을 채워넣을거냐.
-	String[] operatorData = {"+", "-", "*", "/"};	
-	JComboBox<String> operator = new JComboBox<String>(operatorData);
+	JTextField operand2 = new JTextField(5);
+	
+/**
+ * 에이전트로 보낼거야	
+ * */
+//	//딱봐도 콤보박스 ㅇㅈ? operatorData는 여기 안에 무슨 값을 채워넣을거냐.
+//	String[] operatorData = {"+", "-", "*", "/"};	
+	JTextField operator = new JTextField(2); // 문자 받을수만 있게
+//	JComboBox<String> operator = new JComboBox<String>(operatorData);
+	
 	
 	//버튼만들기
 	JButton equal = new JButton("=");
@@ -31,8 +47,16 @@ public class calculator extends JFrame implements ActionListener {
 	JButton btnClear = new JButton("CLEAR");
 	
 
-	public calculator() {
+	public Calculator_2_frame() {
 		this.setTitle("Lesson01-Java Calculator");
+		
+		try {
+			calcAgent = new Caculator_2_agent("localhost",8888);
+		} catch (Exception err) {
+			JOptionPane.showMessageDialog(
+					null, err.getMessage(), "Error", JOptionPane.ERROR_MESSAGE);
+			System.exit(0);
+		}
 		
 		Container contentPane = this.getContentPane();
 		//X_AXIS: X축 - horizontal , Y_AXIS: Y축 - vertical
@@ -43,7 +67,18 @@ public class calculator extends JFrame implements ActionListener {
 		contentPane.add(this.createToolBar());
 		contentPane.add(Box.createVerticalGlue());
 		
-		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		/**
+		 * 프레임에서 끄는 게 아니라 에이전트를 닫도록 설정.	
+		 * */		
+//		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		this.addWindowListener(new WindowAdapter() {
+			@Override
+			public void windowClosing(WindowEvent e) {
+				calcAgent.close();
+				System.exit(0);
+			}
+		});		
+		
 		this.pack();
 		this.setLocationRelativeTo(null);
 	}	
@@ -61,8 +96,8 @@ public class calculator extends JFrame implements ActionListener {
 		//박스의 최대 사이즈 (width, height)
 		box.setMaximumSize(new Dimension(300, 30));
 		box.setAlignmentY(Box.CENTER_ALIGNMENT);
-		box.add(operand1);
-		box.add(operator);
+		box.add(operand1);		
+		box.add(operator);		
 		box.add(operand2);
 		box.add(equal);
 		box.add(result);
@@ -88,18 +123,25 @@ public class calculator extends JFrame implements ActionListener {
 		double r = 0;
 		
 		try {
-			switch (operator.getSelectedItem().toString()) {
-				case "+": r = a + b;
-				break;
-				case "-": r = a - b;
-				break;
-				case "*": r = a * b;
-				break;
-				case "/": 
-					if(b==0) throw new Exception("0이잖아요 ㅡㅡ");
-					r = a / b;
-				break;
-			}
+			/**
+			 *  에이전트에서 산출할거야.
+			 * */  
+//			 switch (operator.getSelectedItem().toString()) {
+//				case "+": r = a + b;
+//				break;
+//				case "-": r = a - b;
+//				break;
+//				case "*": r = a * b;
+//				break;
+//				case "/": 
+//					if(b==0) throw new Exception("0이잖아요 ㅡㅡ");
+//					r = a / b;
+//				break;
+//			}
+			r = calcAgent.compute(operator.getText(), a, b);
+			result.setText(Double.toString(r));			
+
+
 			result.setText(Double.toString(r));			
 			
 		} catch (Exception e) {
@@ -115,7 +157,7 @@ public class calculator extends JFrame implements ActionListener {
 	
 	
 	public static void main(String[] args) {
-		calculator app = new calculator();
+		Calculator_2_frame app = new Calculator_2_frame();
 		app.setVisible(true);		
 	}
 	
