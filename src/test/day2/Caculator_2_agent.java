@@ -1,4 +1,4 @@
-package test;
+package test.day2;
 
 import java.io.PrintStream;
 import java.net.Socket;

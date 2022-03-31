@@ -1,4 +1,4 @@
-package test;
+package test.day2;
 
 import java.awt.Component;
 import java.awt.Container;
