@@ -13,76 +13,74 @@ public class Caculator_2_server {
 	}
 	
 	@SuppressWarnings("resource")
-  public void service() throws Exception {
+	public void service() throws Exception {
 		ServerSocket serverSocket = new ServerSocket(port);
-		System.out.println("CalculatorServer startup:");
-		
+		System.out.println("Server Startup !!!!");
 		Socket socket = null;
 		
 		while(true) {
 			try {
-				System.out.println("waiting client...");
+				System.out.println("Å¬¶óÀÌ¾ğÆ® ±â´Ù¸®´Â Áß...");
+				socket = serverSocket.accept();	//Å¬¶óÀÌ¾ğÆ® ¿¬°áÀÌ µé¾î¿À¸é ¿¬°á ½ÂÀÎ ÈÄ ¼ÒÄÏ °ª ¸®ÅÏ
+				System.out.println("Å¬¶óÀÌ¾ğÆ®¿Í ¿¬°áµÇ¾ú½À´Ï´Ù.");
 				
-				socket = serverSocket.accept();
-				System.out.println("connected to client.");
-				
-				processRequest(socket);
-				System.out.println("closed client.");
-				
+				processRequest(socket);			
+				System.out.println("Å¬¶óÀÌ¾ğÆ®¸¦ Á¾·áÇÕ´Ï´Ù.");
 			} catch (Throwable e) {
-				System.out.println("connection error!");
+				System.out.println("¿¬°á ¿À·ù!");
 			}
 		}
-	}
+		
+	}	
 	
 	private void processRequest(Socket socket) throws Exception {
-		Scanner in = new Scanner(socket.getInputStream());
+		Scanner	in		= new Scanner(socket.getInputStream());
 		PrintStream out = new PrintStream(socket.getOutputStream());
-			
-		String operator = null;
+		String operator	= null;
 		double a, b, r;
 		
 		while(true) {
 			try {
 				operator = in.nextLine();
 				
-				if (operator.equals("goodbye")) {
-					out.println("goodbye");
+				if(operator.equals("see you again")) {
+					out.println("see you again");
 					break;
-					
-				} else {
+				}else {
 					a = Double.parseDouble(in.nextLine());
 					b = Double.parseDouble(in.nextLine());
 					r = 0;
-				
-					switch (operator) {
-					case "+": r = a + b; break;
-					case "-": r = a - b; break;
-					case "*": r = a * b; break;
+					
+					switch(operator) {
+					case "+": r = a + b;
+					break;
+					case "-": r = a - b;
+					break;
+					case "*": r = a * b;
+					break;
 					case "/": 
-						if (b == 0) throw new Exception("0 ï¿½ì‘æ¿¡ï¿½ ï¿½êµ¹ï¿½ë‹ƒ ï¿½ë‹” ï¿½ë¾¾ï¿½ë’¿ï¿½ë•²ï¿½ë–!");
-						r = a / b; 
-						break;
+						if(b==0) throw new Exception("0ÀÌÀİ¾Æ¿ä ¤Ñ¤Ñ");
+						r = a / b;
+					break;
 					default:
-						throw new Exception("ï¿½ë¹ï¿½ë–¦ ï¿½ë¿°ï¿½ê¶›ï¿½ì“£ ï§ï¿½ï¿½ìï¿½ë¸¯ï§ï¿½ ï¿½ë¸¡ï¿½ë’¿ï¿½ë•²ï¿½ë–!");
+						throw new Exception("ÇØ´ç ¿¬»êÀ» Áö¿øÇÏÁö ¾Ê½À´Ï´Ù!");
 					}
 					out.println("success");
 					out.println(r);
+					
 				}
-				
 			} catch (Exception err) {
-				out.println("failure");
+				out.println("Fail");
 				out.println(err.getMessage());
 			}
 		}
-		
 		try {out.close();} catch (Exception e) {}
 		try {in.close();} catch (Exception e) {}
-		try {socket.close();} catch (Exception e) {}
+		try {socket.close();} catch (Exception e) {}			
 	}
-	
+
 	public static void main(String[] args) throws Exception {
-		Caculator_2_server app = new Caculator_2_server(8888);
+		Caculator_2_server app = new Caculator_2_server(7001);
 		app.service();
 	}
 }

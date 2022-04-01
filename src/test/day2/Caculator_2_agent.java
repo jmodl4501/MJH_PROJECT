@@ -37,7 +37,7 @@ public class Caculator_2_agent {
 
 	public void close() {
 		try {
-			out.println("±Â¹ÙÀÌ~");
+			out.println("see you again");
 			System.out.println(in.nextLine());
 		} catch (Exception e) {}
 		

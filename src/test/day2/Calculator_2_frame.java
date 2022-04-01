@@ -21,6 +21,7 @@ import javax.swing.JTextField;
  * 왜 쪼개느냐? 프레임 역할 / 계산역할을 분기하기 위해서
  * 어떤 걸 학습할 수 있느냐? 서버와 클라이언트의 역할로 나눌 수 있다.
  * 이 화면에서는 calculatorSingle에서 계산하는 로직을 덜어내는 대신, agent 호출소스를 추가했다.
+ * 우측 하단에 Display Selected Console 누르면 server 콘솔따로, frame 콘솔따로 확인 가능하다.
  * */
 
 public class Calculator_2_frame extends JFrame implements ActionListener {
@@ -51,7 +52,7 @@ public class Calculator_2_frame extends JFrame implements ActionListener {
 		this.setTitle("Lesson01-Java Calculator");
 		
 		try {
-			calcAgent = new Caculator_2_agent("localhost",8888);
+			calcAgent = new Caculator_2_agent("localhost",7001);
 		} catch (Exception err) {
 			JOptionPane.showMessageDialog(
 					null, err.getMessage(), "Error", JOptionPane.ERROR_MESSAGE);
