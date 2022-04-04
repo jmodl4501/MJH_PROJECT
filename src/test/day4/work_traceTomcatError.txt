@@ -1,0 +1,20 @@
+■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+어디까지 했나? 톰캣 설치하다가 계속 튕겨서 그거 잡는 중. 
+■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+1) 어떻게 디버깅을 해야하나? https://okky.kr/article/35972
+내용: startup.bat에서 start부분을 debug로 바꾸면 에러를 뱉음 (에러를 뱉으면 다시 start로 바꿔놓을 예정)
+로그:JAVA_HOME should point to a JDK not a JRE → 시스템 변수 JRE_HOME, JAVA_HOME이 옛날 것으로 잡혀있어서 수정. → installing jdb... 에서 	화면이 넘어가지 않음. → debug를 run으로 바꿔보니 server.xml에서 에러를 뱉음. 근데 한글이 깨져서 나오네.
+
+2) 어떻게 cmd에서 한글을 안깨지게 하나? https://mozzioi.tistory.com/10
+내용: 영어/한글을 UTF-8로 변경한다.
+어떻게?: cmd에 chcp를 치면 현재 언어가 나옴. 그러면 chcp 65001로 변경함.
+에러:[D:\Project\JAVA_PROJECT\MJH_PROJECT\server\apache-tomcat-9.0.45\conf\server.xml](으)로부터 서버 설정을 로드할 수 없습니다. → 보니까 	server.xml 파일이 없네? 아.. 잘못깐건가. 삭제하려고 하는데 사용중이라네 ㅡㅡ.. 이거 어떻게 하지?
+
+3) 어떻게 사용중인 파일 날리나? 재부팅해야해? https://zkim0115.tistory.com/2162
+방법: ctrl+R > resmon.exe > 연결된 핸들에 삭제안되는 경로 복붙 "D:\Project\JAVA_PROJECT\MJH_PROJECT\server\bin" → 뭐를 사용하고 있는지 나옴 → 그 행 클릭해서 우측클릭> 프로세스 끝내기 > 파일 삭제가능
+로그: 다시 다운로드 중 이미 사용중인 서비스네임이란다. 어떻게 지워내지? cmd 열어서 sc.exe delete tomcat9 (설치된 서비스네임) 
+(참고: https://dazhight.tistory.com/entry/Tomcat-%EC%84%A4%EC%B9%98-%EC%98%A4%EB%A5%98-%EB%B0%8F-%EC%82%AD%EC%A0%9C?category=1245234)
+
+4) 톰캣 재설치 후 실행하니 정상 작동! 하지만 서버가 돌아가는 부분에서 한글이 깨진다. 어떻게 설정하지?
+(참고: https://blog.naver.com/baekmg1988/221302236018)
+방법: server.xml 내 "8080"포트 태그안에 URIEncoding = "UTF-8" <- 해당 옵션 추가하면 됨.

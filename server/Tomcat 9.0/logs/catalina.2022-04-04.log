@@ -1,0 +1,486 @@
+04-Apr-2022 11:20:10.355 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/9.0.45
+04-Apr-2022 11:20:10.379 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Mar 30 2021 10:29:04 UTC
+04-Apr-2022 11:20:10.381 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  9.0.45.0
+04-Apr-2022 11:20:10.383 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 10
+04-Apr-2022 11:20:10.384 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+04-Apr-2022 11:20:10.384 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+04-Apr-2022 11:20:10.391 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\Program Files\Java\jre1.8.0_202
+04-Apr-2022 11:20:10.392 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          1.8.0_202-b08
+04-Apr-2022 11:20:10.393 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+04-Apr-2022 11:20:10.393 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0
+04-Apr-2022 11:20:10.394 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0
+04-Apr-2022 11:20:10.396 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0\conf\logging.properties
+04-Apr-2022 11:20:10.398 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+04-Apr-2022 11:20:10.399 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djdk.tls.ephemeralDHKeySize=2048
+04-Apr-2022 11:20:10.401 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+04-Apr-2022 11:20:10.406 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dignore.endorsed.dirs=
+04-Apr-2022 11:20:10.408 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0
+04-Apr-2022 11:20:10.411 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0
+04-Apr-2022 11:20:10.413 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0\temp
+04-Apr-2022 11:20:10.425 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [C:\Program Files\Java\jre1.8.0_202\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\app\HIRA\product\18.0.0\dbhomeXE\bin;C:\Python\Python39;C:\Python\Python39\Scripts;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\Java\jdk-17.0.2\bin;C:\Users\HIRA\AppData\Local\Programs\Python\Python39\Scripts;C:\Users\HIRA\AppData\Local\Programs\Python\Python39;C:\Users\HIRA\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Bandizip\;C:\Program Files\Java\jdk1.8.0_60\bin;.]
+04-Apr-2022 11:20:10.884 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8080"]을(를) 초기화합니다.
+04-Apr-2022 11:20:11.493 정보 [main] org.apache.catalina.startup.Catalina.load [1461] 밀리초 내에 서버가 초기화되었습니다.
+04-Apr-2022 11:20:11.539 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+04-Apr-2022 11:20:11.540 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/9.0.45]
+04-Apr-2022 11:20:11.572 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0\webapps\docs]을(를) 배치합니다.
+04-Apr-2022 11:20:11.886 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0\webapps\docs]에 대한 배치가 [313] 밀리초에 완료되었습니다.
+04-Apr-2022 11:20:11.891 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0\webapps\manager]을(를) 배치합니다.
+04-Apr-2022 11:20:11.963 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0\webapps\manager]에 대한 배치가 [72] 밀리초에 완료되었습니다.
+04-Apr-2022 11:20:11.970 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0\webapps\ROOT]을(를) 배치합니다.
+04-Apr-2022 11:20:12.015 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0\webapps\ROOT]에 대한 배치가 [46] 밀리초에 완료되었습니다.
+04-Apr-2022 11:20:12.020 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8080"]을(를) 시작합니다.
+04-Apr-2022 11:20:12.032 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [534] 밀리초 내에 시작되었습니다.
+04-Apr-2022 11:20:17.112 정보 [Thread-4] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-8080"]을(를) 일시 정지 중
+04-Apr-2022 11:20:17.694 정보 [Thread-4] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+04-Apr-2022 11:20:17.711 정보 [Thread-4] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8080"]을(를) 중지시킵니다.
+04-Apr-2022 11:20:17.748 정보 [Thread-4] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8080"]을(를) 소멸시킵니다.
+04-Apr-2022 11:20:42.448 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/9.0.45
+04-Apr-2022 11:20:42.453 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Mar 30 2021 10:29:04 UTC
+04-Apr-2022 11:20:42.453 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  9.0.45.0
+04-Apr-2022 11:20:42.454 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 10
+04-Apr-2022 11:20:42.454 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+04-Apr-2022 11:20:42.454 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+04-Apr-2022 11:20:42.454 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\Program Files\Java\jre1.8.0_202
+04-Apr-2022 11:20:42.454 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          1.8.0_202-b08
+04-Apr-2022 11:20:42.456 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+04-Apr-2022 11:20:42.456 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0
+04-Apr-2022 11:20:42.456 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0
+04-Apr-2022 11:20:42.459 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0\conf\logging.properties
+04-Apr-2022 11:20:42.460 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+04-Apr-2022 11:20:42.461 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djdk.tls.ephemeralDHKeySize=2048
+04-Apr-2022 11:20:42.462 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+04-Apr-2022 11:20:42.467 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dignore.endorsed.dirs=
+04-Apr-2022 11:20:42.468 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0
+04-Apr-2022 11:20:42.469 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0
+04-Apr-2022 11:20:42.470 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0\temp
+04-Apr-2022 11:20:42.483 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [C:\Program Files\Java\jre1.8.0_202\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\app\HIRA\product\18.0.0\dbhomeXE\bin;C:\Python\Python39;C:\Python\Python39\Scripts;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\Java\jdk-17.0.2\bin;C:\Users\HIRA\AppData\Local\Programs\Python\Python39\Scripts;C:\Users\HIRA\AppData\Local\Programs\Python\Python39;C:\Users\HIRA\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Bandizip\;C:\Program Files\Java\jdk1.8.0_60\bin;.]
+04-Apr-2022 11:20:42.869 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8080"]을(를) 초기화합니다.
+04-Apr-2022 11:20:43.318 정보 [main] org.apache.catalina.startup.Catalina.load [1086] 밀리초 내에 서버가 초기화되었습니다.
+04-Apr-2022 11:20:43.351 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+04-Apr-2022 11:20:43.353 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/9.0.45]
+04-Apr-2022 11:20:43.369 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0\webapps\docs]을(를) 배치합니다.
+04-Apr-2022 11:20:43.629 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0\webapps\docs]에 대한 배치가 [259] 밀리초에 완료되었습니다.
+04-Apr-2022 11:20:43.631 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0\webapps\manager]을(를) 배치합니다.
+04-Apr-2022 11:20:43.686 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0\webapps\manager]에 대한 배치가 [55] 밀리초에 완료되었습니다.
+04-Apr-2022 11:20:43.690 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0\webapps\ROOT]을(를) 배치합니다.
+04-Apr-2022 11:20:43.726 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0\webapps\ROOT]에 대한 배치가 [37] 밀리초에 완료되었습니다.
+04-Apr-2022 11:20:43.731 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8080"]을(를) 시작합니다.
+04-Apr-2022 11:20:43.740 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [415] 밀리초 내에 시작되었습니다.
+04-Apr-2022 11:20:48.237 정보 [Thread-4] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-8080"]을(를) 일시 정지 중
+04-Apr-2022 11:20:48.596 정보 [Thread-4] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+04-Apr-2022 11:20:48.611 정보 [Thread-4] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8080"]을(를) 중지시킵니다.
+04-Apr-2022 11:20:48.651 정보 [Thread-4] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8080"]을(를) 소멸시킵니다.
+04-Apr-2022 11:21:24.024 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/9.0.45
+04-Apr-2022 11:21:24.029 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Mar 30 2021 10:29:04 UTC
+04-Apr-2022 11:21:24.029 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  9.0.45.0
+04-Apr-2022 11:21:24.029 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 10
+04-Apr-2022 11:21:24.030 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+04-Apr-2022 11:21:24.030 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+04-Apr-2022 11:21:24.031 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\Program Files\Java\jre1.8.0_202
+04-Apr-2022 11:21:24.031 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          1.8.0_202-b08
+04-Apr-2022 11:21:24.032 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+04-Apr-2022 11:21:24.033 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0
+04-Apr-2022 11:21:24.033 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0
+04-Apr-2022 11:21:24.034 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0\conf\logging.properties
+04-Apr-2022 11:21:24.034 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+04-Apr-2022 11:21:24.035 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djdk.tls.ephemeralDHKeySize=2048
+04-Apr-2022 11:21:24.036 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+04-Apr-2022 11:21:24.038 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dignore.endorsed.dirs=
+04-Apr-2022 11:21:24.039 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0
+04-Apr-2022 11:21:24.040 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0
+04-Apr-2022 11:21:24.041 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0\temp
+04-Apr-2022 11:21:24.050 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [C:\Program Files\Java\jre1.8.0_202\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\app\HIRA\product\18.0.0\dbhomeXE\bin;C:\Python\Python39;C:\Python\Python39\Scripts;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\Java\jdk-17.0.2\bin;C:\Users\HIRA\AppData\Local\Programs\Python\Python39\Scripts;C:\Users\HIRA\AppData\Local\Programs\Python\Python39;C:\Users\HIRA\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Bandizip\;C:\Program Files\Java\jdk1.8.0_60\bin;.]
+04-Apr-2022 11:21:24.387 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8080"]을(를) 초기화합니다.
+04-Apr-2022 11:21:24.803 정보 [main] org.apache.catalina.startup.Catalina.load [954] 밀리초 내에 서버가 초기화되었습니다.
+04-Apr-2022 11:21:24.829 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+04-Apr-2022 11:21:24.831 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/9.0.45]
+04-Apr-2022 11:21:24.841 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0\webapps\docs]을(를) 배치합니다.
+04-Apr-2022 11:21:25.056 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0\webapps\docs]에 대한 배치가 [214] 밀리초에 완료되었습니다.
+04-Apr-2022 11:21:25.059 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0\webapps\manager]을(를) 배치합니다.
+04-Apr-2022 11:21:25.106 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0\webapps\manager]에 대한 배치가 [47] 밀리초에 완료되었습니다.
+04-Apr-2022 11:21:25.108 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0\webapps\ROOT]을(를) 배치합니다.
+04-Apr-2022 11:21:25.140 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0\webapps\ROOT]에 대한 배치가 [32] 밀리초에 완료되었습니다.
+04-Apr-2022 11:21:25.148 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8080"]을(를) 시작합니다.
+04-Apr-2022 11:21:25.160 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [355] 밀리초 내에 시작되었습니다.
+04-Apr-2022 11:21:27.093 정보 [Thread-4] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-8080"]을(를) 일시 정지 중
+04-Apr-2022 11:21:27.448 정보 [Thread-4] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+04-Apr-2022 11:21:27.461 정보 [Thread-4] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8080"]을(를) 중지시킵니다.
+04-Apr-2022 11:21:27.508 정보 [Thread-4] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8080"]을(를) 소멸시킵니다.
+04-Apr-2022 11:21:43.377 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/9.0.45
+04-Apr-2022 11:21:43.382 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Mar 30 2021 10:29:04 UTC
+04-Apr-2022 11:21:43.383 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  9.0.45.0
+04-Apr-2022 11:21:43.383 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 10
+04-Apr-2022 11:21:43.383 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+04-Apr-2022 11:21:43.384 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+04-Apr-2022 11:21:43.384 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\Program Files\Java\jre1.8.0_202
+04-Apr-2022 11:21:43.384 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          1.8.0_202-b08
+04-Apr-2022 11:21:43.384 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+04-Apr-2022 11:21:43.384 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0
+04-Apr-2022 11:21:43.384 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0
+04-Apr-2022 11:21:43.385 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0\conf\logging.properties
+04-Apr-2022 11:21:43.386 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+04-Apr-2022 11:21:43.386 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djdk.tls.ephemeralDHKeySize=2048
+04-Apr-2022 11:21:43.387 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+04-Apr-2022 11:21:43.388 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dignore.endorsed.dirs=
+04-Apr-2022 11:21:43.390 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0
+04-Apr-2022 11:21:43.390 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0
+04-Apr-2022 11:21:43.391 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0\temp
+04-Apr-2022 11:21:43.401 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [C:\Program Files\Java\jre1.8.0_202\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\app\HIRA\product\18.0.0\dbhomeXE\bin;C:\Python\Python39;C:\Python\Python39\Scripts;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\Java\jdk-17.0.2\bin;C:\Users\HIRA\AppData\Local\Programs\Python\Python39\Scripts;C:\Users\HIRA\AppData\Local\Programs\Python\Python39;C:\Users\HIRA\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Bandizip\;C:\Program Files\Java\jdk1.8.0_60\bin;.]
+04-Apr-2022 11:21:43.707 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8080"]을(를) 초기화합니다.
+04-Apr-2022 11:21:44.122 정보 [main] org.apache.catalina.startup.Catalina.load [936] 밀리초 내에 서버가 초기화되었습니다.
+04-Apr-2022 11:21:44.149 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+04-Apr-2022 11:21:44.150 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/9.0.45]
+04-Apr-2022 11:21:44.164 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0\webapps\docs]을(를) 배치합니다.
+04-Apr-2022 11:21:44.384 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0\webapps\docs]에 대한 배치가 [219] 밀리초에 완료되었습니다.
+04-Apr-2022 11:21:44.385 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0\webapps\manager]을(를) 배치합니다.
+04-Apr-2022 11:21:44.433 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0\webapps\manager]에 대한 배치가 [47] 밀리초에 완료되었습니다.
+04-Apr-2022 11:21:44.434 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0\webapps\ROOT]을(를) 배치합니다.
+04-Apr-2022 11:21:44.468 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0\webapps\ROOT]에 대한 배치가 [33] 밀리초에 완료되었습니다.
+04-Apr-2022 11:21:44.473 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8080"]을(를) 시작합니다.
+04-Apr-2022 11:21:44.481 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [358] 밀리초 내에 시작되었습니다.
+04-Apr-2022 11:21:56.374 정보 [Thread-4] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-8080"]을(를) 일시 정지 중
+04-Apr-2022 11:21:56.731 정보 [Thread-4] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+04-Apr-2022 11:21:56.744 정보 [Thread-4] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8080"]을(를) 중지시킵니다.
+04-Apr-2022 11:21:56.785 정보 [Thread-4] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8080"]을(를) 소멸시킵니다.
+04-Apr-2022 11:22:18.321 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/9.0.45
+04-Apr-2022 11:22:18.326 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Mar 30 2021 10:29:04 UTC
+04-Apr-2022 11:22:18.327 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  9.0.45.0
+04-Apr-2022 11:22:18.327 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 10
+04-Apr-2022 11:22:18.328 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+04-Apr-2022 11:22:18.329 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+04-Apr-2022 11:22:18.330 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\Program Files\Java\jre1.8.0_202
+04-Apr-2022 11:22:18.330 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          1.8.0_202-b08
+04-Apr-2022 11:22:18.331 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+04-Apr-2022 11:22:18.331 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0
+04-Apr-2022 11:22:18.334 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0
+04-Apr-2022 11:22:18.337 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0\conf\logging.properties
+04-Apr-2022 11:22:18.339 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+04-Apr-2022 11:22:18.340 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djdk.tls.ephemeralDHKeySize=2048
+04-Apr-2022 11:22:18.341 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+04-Apr-2022 11:22:18.343 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dignore.endorsed.dirs=
+04-Apr-2022 11:22:18.344 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0
+04-Apr-2022 11:22:18.346 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0
+04-Apr-2022 11:22:18.349 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0\temp
+04-Apr-2022 11:22:18.361 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [C:\Program Files\Java\jre1.8.0_202\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\app\HIRA\product\18.0.0\dbhomeXE\bin;C:\Python\Python39;C:\Python\Python39\Scripts;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\Java\jdk-17.0.2\bin;C:\Users\HIRA\AppData\Local\Programs\Python\Python39\Scripts;C:\Users\HIRA\AppData\Local\Programs\Python\Python39;C:\Users\HIRA\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Bandizip\;C:\Program Files\Java\jdk1.8.0_60\bin;.]
+04-Apr-2022 11:22:18.647 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8080"]을(를) 초기화합니다.
+04-Apr-2022 11:22:19.041 정보 [main] org.apache.catalina.startup.Catalina.load [933] 밀리초 내에 서버가 초기화되었습니다.
+04-Apr-2022 11:22:19.068 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+04-Apr-2022 11:22:19.068 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/9.0.45]
+04-Apr-2022 11:22:19.078 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0\webapps\docs]을(를) 배치합니다.
+04-Apr-2022 11:22:19.347 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0\webapps\docs]에 대한 배치가 [268] 밀리초에 완료되었습니다.
+04-Apr-2022 11:22:19.348 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0\webapps\manager]을(를) 배치합니다.
+04-Apr-2022 11:22:19.405 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0\webapps\manager]에 대한 배치가 [57] 밀리초에 완료되었습니다.
+04-Apr-2022 11:22:19.406 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0\webapps\ROOT]을(를) 배치합니다.
+04-Apr-2022 11:22:19.441 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0\webapps\ROOT]에 대한 배치가 [35] 밀리초에 완료되었습니다.
+04-Apr-2022 11:22:19.445 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8080"]을(를) 시작합니다.
+04-Apr-2022 11:22:19.452 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [410] 밀리초 내에 시작되었습니다.
+04-Apr-2022 11:23:00.638 정보 [Thread-4] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-8080"]을(를) 일시 정지 중
+04-Apr-2022 11:23:01.012 정보 [Thread-4] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+04-Apr-2022 11:23:01.025 정보 [Thread-4] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8080"]을(를) 중지시킵니다.
+04-Apr-2022 11:23:01.059 정보 [Thread-4] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8080"]을(를) 소멸시킵니다.
+04-Apr-2022 11:29:32.631 심각 [main] org.apache.tomcat.util.digester.Digester.fatalError [71] 행 [28} 열에서 심각한 파싱 오류 발생
+	org.xml.sax.SAXParseException; systemId: file:/D:/Project/JAVA_PROJECT/MJH_PROJECT/server/Tomcat%209.0/conf/server.xml; lineNumber: 71; columnNumber: 28; 요소 유형 "Connector" 다음에는 속성 사양 ">" 또는 "/>"가 와야 합니다.
+		at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)
+		at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(Unknown Source)
+		at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+		at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+		at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(Unknown Source)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.seekCloseOfStartTag(Unknown Source)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(Unknown Source)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(Unknown Source)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+		at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+		at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+		at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+		at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+		at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1551)
+		at org.apache.catalina.startup.Catalina.parseServerXml(Catalina.java:617)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:709)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:746)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+		at java.lang.reflect.Method.invoke(Unknown Source)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:302)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:472)
+04-Apr-2022 11:29:32.638 경고 [main] org.apache.catalina.startup.Catalina.parseServerXml [D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0\conf\server.xml](으)로부터 서버 설정을 로드할 수 없습니다.
+	org.xml.sax.SAXParseException; systemId: file:/D:/Project/JAVA_PROJECT/MJH_PROJECT/server/Tomcat%209.0/conf/server.xml; lineNumber: 71; columnNumber: 28; 요소 유형 "Connector" 다음에는 속성 사양 ">" 또는 "/>"가 와야 합니다.
+		at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+		at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1551)
+		at org.apache.catalina.startup.Catalina.parseServerXml(Catalina.java:617)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:709)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:746)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+		at java.lang.reflect.Method.invoke(Unknown Source)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:302)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:472)
+04-Apr-2022 11:29:32.640 심각 [main] org.apache.catalina.startup.Catalina.start 서버를 시작할 수 없습니다. 서버 인스턴스가 설정되지 않았습니다.
+04-Apr-2022 11:30:17.890 심각 [main] org.apache.tomcat.util.digester.Digester.fatalError [71] 행 [28} 열에서 심각한 파싱 오류 발생
+	org.xml.sax.SAXParseException; systemId: file:/D:/Project/JAVA_PROJECT/MJH_PROJECT/server/Tomcat%209.0/conf/server.xml; lineNumber: 71; columnNumber: 28; 요소 유형 "Connector" 다음에는 속성 사양 ">" 또는 "/>"가 와야 합니다.
+		at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)
+		at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(Unknown Source)
+		at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+		at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+		at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(Unknown Source)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.seekCloseOfStartTag(Unknown Source)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(Unknown Source)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(Unknown Source)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+		at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+		at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+		at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+		at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+		at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1551)
+		at org.apache.catalina.startup.Catalina.parseServerXml(Catalina.java:617)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:709)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:746)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+		at java.lang.reflect.Method.invoke(Unknown Source)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:302)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:472)
+04-Apr-2022 11:30:17.897 경고 [main] org.apache.catalina.startup.Catalina.parseServerXml [D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0\conf\server.xml](으)로부터 서버 설정을 로드할 수 없습니다.
+	org.xml.sax.SAXParseException; systemId: file:/D:/Project/JAVA_PROJECT/MJH_PROJECT/server/Tomcat%209.0/conf/server.xml; lineNumber: 71; columnNumber: 28; 요소 유형 "Connector" 다음에는 속성 사양 ">" 또는 "/>"가 와야 합니다.
+		at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+		at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1551)
+		at org.apache.catalina.startup.Catalina.parseServerXml(Catalina.java:617)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:709)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:746)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+		at java.lang.reflect.Method.invoke(Unknown Source)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:302)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:472)
+04-Apr-2022 11:30:17.899 심각 [main] org.apache.catalina.startup.Catalina.start 서버를 시작할 수 없습니다. 서버 인스턴스가 설정되지 않았습니다.
+04-Apr-2022 11:30:29.291 심각 [main] org.apache.tomcat.util.digester.Digester.fatalError [71] 행 [28} 열에서 심각한 파싱 오류 발생
+	org.xml.sax.SAXParseException; systemId: file:/D:/Project/JAVA_PROJECT/MJH_PROJECT/server/Tomcat%209.0/conf/server.xml; lineNumber: 71; columnNumber: 28; 요소 유형 "Connector" 다음에는 속성 사양 ">" 또는 "/>"가 와야 합니다.
+		at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)
+		at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(Unknown Source)
+		at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+		at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+		at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(Unknown Source)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.seekCloseOfStartTag(Unknown Source)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(Unknown Source)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(Unknown Source)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+		at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+		at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+		at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+		at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+		at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1551)
+		at org.apache.catalina.startup.Catalina.parseServerXml(Catalina.java:617)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:709)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:746)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+		at java.lang.reflect.Method.invoke(Unknown Source)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:302)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:472)
+04-Apr-2022 11:30:29.296 경고 [main] org.apache.catalina.startup.Catalina.parseServerXml [D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0\conf\server.xml](으)로부터 서버 설정을 로드할 수 없습니다.
+	org.xml.sax.SAXParseException; systemId: file:/D:/Project/JAVA_PROJECT/MJH_PROJECT/server/Tomcat%209.0/conf/server.xml; lineNumber: 71; columnNumber: 28; 요소 유형 "Connector" 다음에는 속성 사양 ">" 또는 "/>"가 와야 합니다.
+		at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+		at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1551)
+		at org.apache.catalina.startup.Catalina.parseServerXml(Catalina.java:617)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:709)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:746)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+		at java.lang.reflect.Method.invoke(Unknown Source)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:302)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:472)
+04-Apr-2022 11:30:29.299 심각 [main] org.apache.catalina.startup.Catalina.start 서버를 시작할 수 없습니다. 서버 인스턴스가 설정되지 않았습니다.
+04-Apr-2022 11:32:38.715 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/9.0.45
+04-Apr-2022 11:32:38.720 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Mar 30 2021 10:29:04 UTC
+04-Apr-2022 11:32:38.721 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  9.0.45.0
+04-Apr-2022 11:32:38.722 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 10
+04-Apr-2022 11:32:38.722 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+04-Apr-2022 11:32:38.723 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+04-Apr-2022 11:32:38.724 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\Program Files\Java\jre1.8.0_202
+04-Apr-2022 11:32:38.724 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          1.8.0_202-b08
+04-Apr-2022 11:32:38.725 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+04-Apr-2022 11:32:38.726 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0
+04-Apr-2022 11:32:38.726 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0
+04-Apr-2022 11:32:38.727 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0\conf\logging.properties
+04-Apr-2022 11:32:38.729 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+04-Apr-2022 11:32:38.730 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djdk.tls.ephemeralDHKeySize=2048
+04-Apr-2022 11:32:38.730 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+04-Apr-2022 11:32:38.732 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dignore.endorsed.dirs=
+04-Apr-2022 11:32:38.733 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0
+04-Apr-2022 11:32:38.734 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0
+04-Apr-2022 11:32:38.734 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0\temp
+04-Apr-2022 11:32:38.746 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [C:\Program Files\Java\jre1.8.0_202\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\app\HIRA\product\18.0.0\dbhomeXE\bin;C:\Python\Python39;C:\Python\Python39\Scripts;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\Java\jdk-17.0.2\bin;C:\Users\HIRA\AppData\Local\Programs\Python\Python39\Scripts;C:\Users\HIRA\AppData\Local\Programs\Python\Python39;C:\Users\HIRA\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Bandizip\;C:\Program Files\Java\jdk1.8.0_60\bin;.]
+04-Apr-2022 11:32:39.063 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8080"]을(를) 초기화합니다.
+04-Apr-2022 11:32:39.457 정보 [main] org.apache.catalina.startup.Catalina.load [916] 밀리초 내에 서버가 초기화되었습니다.
+04-Apr-2022 11:32:39.483 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+04-Apr-2022 11:32:39.483 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/9.0.45]
+04-Apr-2022 11:32:39.493 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0\webapps\docs]을(를) 배치합니다.
+04-Apr-2022 11:32:39.705 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0\webapps\docs]에 대한 배치가 [211] 밀리초에 완료되었습니다.
+04-Apr-2022 11:32:39.705 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0\webapps\manager]을(를) 배치합니다.
+04-Apr-2022 11:32:39.754 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0\webapps\manager]에 대한 배치가 [49] 밀리초에 완료되었습니다.
+04-Apr-2022 11:32:39.755 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0\webapps\ROOT]을(를) 배치합니다.
+04-Apr-2022 11:32:39.790 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0\webapps\ROOT]에 대한 배치가 [34] 밀리초에 완료되었습니다.
+04-Apr-2022 11:32:39.794 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8080"]을(를) 시작합니다.
+04-Apr-2022 11:32:39.804 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [346] 밀리초 내에 시작되었습니다.
+04-Apr-2022 11:32:42.483 정보 [Thread-4] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-8080"]을(를) 일시 정지 중
+04-Apr-2022 11:32:42.857 정보 [Thread-4] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+04-Apr-2022 11:32:42.876 정보 [Thread-4] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8080"]을(를) 중지시킵니다.
+04-Apr-2022 11:32:42.914 정보 [Thread-4] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8080"]을(를) 소멸시킵니다.
+04-Apr-2022 11:33:18.521 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/9.0.45
+04-Apr-2022 11:33:18.525 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Mar 30 2021 10:29:04 UTC
+04-Apr-2022 11:33:18.526 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  9.0.45.0
+04-Apr-2022 11:33:18.526 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 10
+04-Apr-2022 11:33:18.526 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+04-Apr-2022 11:33:18.527 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+04-Apr-2022 11:33:18.527 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\Program Files\Java\jre1.8.0_202
+04-Apr-2022 11:33:18.527 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          1.8.0_202-b08
+04-Apr-2022 11:33:18.527 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+04-Apr-2022 11:33:18.528 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0
+04-Apr-2022 11:33:18.528 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0
+04-Apr-2022 11:33:18.529 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0\conf\logging.properties
+04-Apr-2022 11:33:18.530 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+04-Apr-2022 11:33:18.531 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djdk.tls.ephemeralDHKeySize=2048
+04-Apr-2022 11:33:18.532 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+04-Apr-2022 11:33:18.535 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dignore.endorsed.dirs=
+04-Apr-2022 11:33:18.536 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0
+04-Apr-2022 11:33:18.537 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0
+04-Apr-2022 11:33:18.538 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0\temp
+04-Apr-2022 11:33:18.548 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [C:\Program Files\Java\jre1.8.0_202\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\app\HIRA\product\18.0.0\dbhomeXE\bin;C:\Python\Python39;C:\Python\Python39\Scripts;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\Java\jdk-17.0.2\bin;C:\Users\HIRA\AppData\Local\Programs\Python\Python39\Scripts;C:\Users\HIRA\AppData\Local\Programs\Python\Python39;C:\Users\HIRA\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Bandizip\;C:\Program Files\Java\jdk1.8.0_60\bin;.]
+04-Apr-2022 11:33:18.841 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8080"]을(를) 초기화합니다.
+04-Apr-2022 11:33:19.270 정보 [main] org.apache.catalina.startup.Catalina.load [942] 밀리초 내에 서버가 초기화되었습니다.
+04-Apr-2022 11:33:19.307 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+04-Apr-2022 11:33:19.308 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/9.0.45]
+04-Apr-2022 11:33:19.318 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0\webapps\docs]을(를) 배치합니다.
+04-Apr-2022 11:33:19.544 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0\webapps\docs]에 대한 배치가 [225] 밀리초에 완료되었습니다.
+04-Apr-2022 11:33:19.546 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0\webapps\manager]을(를) 배치합니다.
+04-Apr-2022 11:33:19.593 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0\webapps\manager]에 대한 배치가 [47] 밀리초에 완료되었습니다.
+04-Apr-2022 11:33:19.596 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0\webapps\ROOT]을(를) 배치합니다.
+04-Apr-2022 11:33:19.628 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0\webapps\ROOT]에 대한 배치가 [31] 밀리초에 완료되었습니다.
+04-Apr-2022 11:33:19.634 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8080"]을(를) 시작합니다.
+04-Apr-2022 11:33:19.644 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [372] 밀리초 내에 시작되었습니다.
+04-Apr-2022 11:34:08.580 정보 [Thread-4] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-8080"]을(를) 일시 정지 중
+04-Apr-2022 11:34:08.929 정보 [Thread-4] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+04-Apr-2022 11:34:08.942 정보 [Thread-4] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8080"]을(를) 중지시킵니다.
+04-Apr-2022 11:34:08.985 정보 [Thread-4] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8080"]을(를) 소멸시킵니다.
+04-Apr-2022 11:34:14.023 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/9.0.45
+04-Apr-2022 11:34:14.028 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Mar 30 2021 10:29:04 UTC
+04-Apr-2022 11:34:14.029 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  9.0.45.0
+04-Apr-2022 11:34:14.029 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 10
+04-Apr-2022 11:34:14.029 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+04-Apr-2022 11:34:14.029 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+04-Apr-2022 11:34:14.029 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\Program Files\Java\jre1.8.0_202
+04-Apr-2022 11:34:14.030 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          1.8.0_202-b08
+04-Apr-2022 11:34:14.030 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+04-Apr-2022 11:34:14.030 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0
+04-Apr-2022 11:34:14.030 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0
+04-Apr-2022 11:34:14.031 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0\conf\logging.properties
+04-Apr-2022 11:34:14.032 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+04-Apr-2022 11:34:14.033 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djdk.tls.ephemeralDHKeySize=2048
+04-Apr-2022 11:34:14.033 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+04-Apr-2022 11:34:14.034 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dignore.endorsed.dirs=
+04-Apr-2022 11:34:14.037 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0
+04-Apr-2022 11:34:14.038 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0
+04-Apr-2022 11:34:14.039 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0\temp
+04-Apr-2022 11:34:14.049 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [C:\Program Files\Java\jre1.8.0_202\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\app\HIRA\product\18.0.0\dbhomeXE\bin;C:\Python\Python39;C:\Python\Python39\Scripts;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\Java\jdk-17.0.2\bin;C:\Users\HIRA\AppData\Local\Programs\Python\Python39\Scripts;C:\Users\HIRA\AppData\Local\Programs\Python\Python39;C:\Users\HIRA\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Bandizip\;C:\Program Files\Java\jdk1.8.0_60\bin;.]
+04-Apr-2022 11:34:14.359 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8080"]을(를) 초기화합니다.
+04-Apr-2022 11:34:14.784 정보 [main] org.apache.catalina.startup.Catalina.load [948] 밀리초 내에 서버가 초기화되었습니다.
+04-Apr-2022 11:34:14.811 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+04-Apr-2022 11:34:14.815 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/9.0.45]
+04-Apr-2022 11:34:14.825 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0\webapps\docs]을(를) 배치합니다.
+04-Apr-2022 11:34:15.042 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0\webapps\docs]에 대한 배치가 [216] 밀리초에 완료되었습니다.
+04-Apr-2022 11:34:15.044 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0\webapps\manager]을(를) 배치합니다.
+04-Apr-2022 11:34:15.090 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0\webapps\manager]에 대한 배치가 [46] 밀리초에 완료되었습니다.
+04-Apr-2022 11:34:15.093 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0\webapps\ROOT]을(를) 배치합니다.
+04-Apr-2022 11:34:15.125 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0\webapps\ROOT]에 대한 배치가 [32] 밀리초에 완료되었습니다.
+04-Apr-2022 11:34:15.131 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8080"]을(를) 시작합니다.
+04-Apr-2022 11:34:15.139 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [353] 밀리초 내에 시작되었습니다.
+04-Apr-2022 11:34:17.356 정보 [Thread-4] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-8080"]을(를) 일시 정지 중
+04-Apr-2022 11:34:17.704 정보 [Thread-4] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+04-Apr-2022 11:34:17.718 정보 [Thread-4] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8080"]을(를) 중지시킵니다.
+04-Apr-2022 11:34:17.759 정보 [Thread-4] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8080"]을(를) 소멸시킵니다.
+04-Apr-2022 13:37:48.145 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/9.0.45
+04-Apr-2022 13:37:48.149 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Mar 30 2021 10:29:04 UTC
+04-Apr-2022 13:37:48.150 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  9.0.45.0
+04-Apr-2022 13:37:48.150 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 10
+04-Apr-2022 13:37:48.150 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+04-Apr-2022 13:37:48.150 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+04-Apr-2022 13:37:48.151 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\Program Files\Java\jre1.8.0_202
+04-Apr-2022 13:37:48.151 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          1.8.0_202-b08
+04-Apr-2022 13:37:48.151 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+04-Apr-2022 13:37:48.151 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0
+04-Apr-2022 13:37:48.152 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0
+04-Apr-2022 13:37:48.153 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0\conf\logging.properties
+04-Apr-2022 13:37:48.153 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+04-Apr-2022 13:37:48.154 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djdk.tls.ephemeralDHKeySize=2048
+04-Apr-2022 13:37:48.155 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+04-Apr-2022 13:37:48.155 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dignore.endorsed.dirs=
+04-Apr-2022 13:37:48.156 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0
+04-Apr-2022 13:37:48.156 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0
+04-Apr-2022 13:37:48.157 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0\temp
+04-Apr-2022 13:37:48.168 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [C:\Program Files\Java\jre1.8.0_202\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\app\HIRA\product\18.0.0\dbhomeXE\bin;C:\Python\Python39;C:\Python\Python39\Scripts;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\Java\jdk-17.0.2\bin;C:\Users\HIRA\AppData\Local\Programs\Python\Python39\Scripts;C:\Users\HIRA\AppData\Local\Programs\Python\Python39;C:\Users\HIRA\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Bandizip\;C:\Program Files\Java\jdk1.8.0_60\bin;.]
+04-Apr-2022 13:37:48.486 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8080"]을(를) 초기화합니다.
+04-Apr-2022 13:37:48.931 정보 [main] org.apache.catalina.startup.Catalina.load [968] 밀리초 내에 서버가 초기화되었습니다.
+04-Apr-2022 13:37:48.959 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+04-Apr-2022 13:37:48.960 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/9.0.45]
+04-Apr-2022 13:37:48.970 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0\webapps\docs]을(를) 배치합니다.
+04-Apr-2022 13:37:49.190 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0\webapps\docs]에 대한 배치가 [218] 밀리초에 완료되었습니다.
+04-Apr-2022 13:37:49.194 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0\webapps\manager]을(를) 배치합니다.
+04-Apr-2022 13:37:49.278 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0\webapps\manager]에 대한 배치가 [84] 밀리초에 완료되었습니다.
+04-Apr-2022 13:37:49.283 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0\webapps\ROOT]을(를) 배치합니다.
+04-Apr-2022 13:37:49.314 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0\webapps\ROOT]에 대한 배치가 [31] 밀리초에 완료되었습니다.
+04-Apr-2022 13:37:49.318 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8080"]을(를) 시작합니다.
+04-Apr-2022 13:37:49.326 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [392] 밀리초 내에 시작되었습니다.
+04-Apr-2022 18:57:33.113 정보 [Thread-4] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-8080"]을(를) 일시 정지 중
+04-Apr-2022 18:57:33.458 정보 [Thread-4] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+04-Apr-2022 18:57:33.685 정보 [Thread-4] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8080"]을(를) 중지시킵니다.
+04-Apr-2022 18:57:33.715 정보 [Thread-4] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8080"]을(를) 소멸시킵니다.
+04-Apr-2022 19:29:00.356 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/9.0.45
+04-Apr-2022 19:29:00.360 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Mar 30 2021 10:29:04 UTC
+04-Apr-2022 19:29:00.360 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  9.0.45.0
+04-Apr-2022 19:29:00.361 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 10
+04-Apr-2022 19:29:00.361 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+04-Apr-2022 19:29:00.361 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+04-Apr-2022 19:29:00.362 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\Program Files\Java\jre1.8.0_202
+04-Apr-2022 19:29:00.362 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          1.8.0_202-b08
+04-Apr-2022 19:29:00.362 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+04-Apr-2022 19:29:00.362 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0
+04-Apr-2022 19:29:00.362 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0
+04-Apr-2022 19:29:00.365 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0\conf\logging.properties
+04-Apr-2022 19:29:00.366 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+04-Apr-2022 19:29:00.367 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djdk.tls.ephemeralDHKeySize=2048
+04-Apr-2022 19:29:00.368 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+04-Apr-2022 19:29:00.374 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dignore.endorsed.dirs=
+04-Apr-2022 19:29:00.375 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0
+04-Apr-2022 19:29:00.375 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0
+04-Apr-2022 19:29:00.376 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0\temp
+04-Apr-2022 19:29:00.387 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [C:\Program Files\Java\jre1.8.0_202\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\app\HIRA\product\18.0.0\dbhomeXE\bin;C:\Python\Python39;C:\Python\Python39\Scripts;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\Java\jdk-17.0.2\bin;C:\Users\HIRA\AppData\Local\Programs\Python\Python39\Scripts;C:\Users\HIRA\AppData\Local\Programs\Python\Python39;C:\Users\HIRA\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Bandizip\;C:\Program Files\Java\jdk1.8.0_60\bin;.]
+04-Apr-2022 19:29:00.685 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8081"]을(를) 초기화합니다.
+04-Apr-2022 19:29:01.102 정보 [main] org.apache.catalina.startup.Catalina.load [961] 밀리초 내에 서버가 초기화되었습니다.
+04-Apr-2022 19:29:01.132 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+04-Apr-2022 19:29:01.135 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/9.0.45]
+04-Apr-2022 19:29:01.146 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0\webapps\docs]을(를) 배치합니다.
+04-Apr-2022 19:29:01.372 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0\webapps\docs]에 대한 배치가 [224] 밀리초에 완료되었습니다.
+04-Apr-2022 19:29:01.374 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0\webapps\manager]을(를) 배치합니다.
+04-Apr-2022 19:29:01.443 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0\webapps\manager]에 대한 배치가 [69] 밀리초에 완료되었습니다.
+04-Apr-2022 19:29:01.448 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0\webapps\ROOT]을(를) 배치합니다.
+04-Apr-2022 19:29:01.486 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [D:\Project\JAVA_PROJECT\MJH_PROJECT\server\Tomcat 9.0\webapps\ROOT]에 대한 배치가 [39] 밀리초에 완료되었습니다.
+04-Apr-2022 19:29:01.493 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8081"]을(를) 시작합니다.
+04-Apr-2022 19:29:01.503 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [397] 밀리초 내에 시작되었습니다.
+04-Apr-2022 19:29:18.965 정보 [Thread-4] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-8081"]을(를) 일시 정지 중
+04-Apr-2022 19:29:19.327 정보 [Thread-4] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+04-Apr-2022 19:29:19.342 정보 [Thread-4] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8081"]을(를) 중지시킵니다.
+04-Apr-2022 19:29:19.375 정보 [Thread-4] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8081"]을(를) 소멸시킵니다.
