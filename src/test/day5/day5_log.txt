@@ -1,0 +1,57 @@
+
+�ڡ�Web Dynamic Project �ȸ�������� ����
+����: Dynamic Web Project ������� �ϴ� "dynamic web module 4.0 requires java 1.8 or newer" �߸鼭 �ȸ������.
+�ذ���: [Project Ŭ���ϰ� Alt + Enter (Ȥ�� ����Ŭ�� �� Property) > Project Facets] ���� 'java 1.8', 'dynamic web module 4.0' �����ϸ� ��.
+����: https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=ajdkfl6445&logNo=221549536647
+�ذ�: ���� �ٽ� ���, Project Facets���� custum ���� java 1.8, web module 4.0 �⺻�������ִ� �ɼǼ���. �װ� ������ "jsf capabilities" �����϶���.
+	2���� �ɼ��� �ִµ� 'WPT Tools �ҷ��ͼ� ����Ұų�/���Ұų�' �߿��� ���Ѵٰ� ������ ���� �����ϴ����.
+	�׷��� �̰͵� �˻��غô��� �����ӿ�ũ���� ����ó�� ���� �� �ƴ϶�� ���� ����� �ʿ���ٴ� �亯
+	[https://stackoverflow.com/questions/8145364/how-to-enable-the-jsf-facet-in-eclipse-user-library]
+
+
+
+�ڡڼ����� �������� ����
+���� �α�: Could not load the Tomcat server configuration at ~~ The configuration may be corrupt or incomplete.
+����: ȸ����ǻ�� �ܺθ��� �������� ���α׷����� conf/servers.xml�� ����..
+�ذ�: �ٽ� ��ġ. �׸��� ���� ������ ���� conf �ȿ��ִ� ������ zip���� ���Ƴ���.
+
+------------------------------------------------------------------------
+���� Web Dynamic Project ����!!
+------------------------------------------------------------------------
+������� ���� ������Ʈ�� �� ���� ������ ������Ʈ ������ �������� �ߴ�.
+Git�� ��Ƴ�� ��� ������Ʈ ������ ������ Git ������Ʈ�� �����ؼ� �߰��Ϸ� �ߴ��� �̹� �ִ� ������� ������ ����.
+
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint:
+hint:   git submodule add <url> MJH_PROJECT
+hint:
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint:
+hint:   git rm --cached MJH_PROJECT
+hint:
+hint: See "git help submodule" for more information.
+
+git submodule add <url> MJH_PROJECT <- �̷��� �ϸ� �ɵ�.
+
+-----------------------------
+�� ���ø����̼� ������Ʈ �����ϱ� ����
+-----------------------------
+�� ���ø����̼� ������ ���ؼ��� ��ġ*�� �ʿ���.
+��ġ? Ŭ���̾�Ʈ�� ���񽺸� ��û���� �� ��Ĺ ������ ���ø����̼� ������ �� �ְ� ��ġ�ϴ� ��.
+
+Server ����Ŭ�� >�ϴ� 'Modules' > Path ������ ���. ���� ���� �� � ������Ʈ�� ��� ������ �����ϴ� ȭ���̿���. 
+
+[���� C/S ȯ��]	Ŭ���̾�Ʈ(UI����) �� ����(����Ͻ� ����) : UI������ �ٲ�� ����߰��� ���� �� Ŭ���̾�Ʈ���� �ٽ� ��ġ�ؾ� ��.
+[�� ȯ��] 		Ŭ���̾�Ʈ(UI���� �ٿ�ε� �� ����) �� ����(UI����, ����Ͻ� ����): UI������ �Ź� �ٿ�ޱ� ������ ��ġ �ʿ� X
+
+��, ���ø����̼��� �Ź� �޴� �� ȯ�濡���� ��Ʈ��ũ �������*�� �߻��Ѵٰ� �ؿ�.
+*��Ʈ��ũ �������: Ư�� ����� �����ϱ� ���� �߰��� ���Ǵ� �ڿ�
+
+-----------------------------
+�׷��� ��� �����ؾ��ϳ�?
+-----------------------------
+

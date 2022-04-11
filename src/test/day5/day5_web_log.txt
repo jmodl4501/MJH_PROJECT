@@ -1,0 +1,12 @@
+hangul GGae zim .. so sad T_T, how can i solute this problem?
+[Window-Preference>General>Content Type] Choose contentType "Text" , and in the bottom input this text "UTF-8". click [Update]
+그러면 짠 한글이 나와요 ㅋ
+추가적으로 [Window-Preference>General>Workspace] 들어가서 하단에 UTF-8도 눌러주세요@
+
+해당 링크로 들어가면 계산기 열림 :)
+http://localhost:8081/MJH_PROJECT/day5/calculator.html
+---------------------------------------------------------------------------------------------------------------------
+
+그럼 서버쪽 소스는 어떻게 구현을 합니까아~?
+HttpServelt 클래스를 상속받아 doGet()메서드를 오버라이딩*해요.
+오버라이딩(Overriding): 재정의. 상속받은 클래스를 다시 선언해서 갈아끼우는 거를 말해요. 그러니까 템플릿 받아서 마음대로 변경해서 사용하잖아요. 그런거지유~
